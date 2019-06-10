@@ -12,7 +12,7 @@ RUN mkdir -p /build /src && \
 
 WORKDIR /build
 
-ARG ledger_tag=v0.3.1-rc1
+ARG ledger_tag=v0.3.1
 
 RUN git clone https://github.com/fetchai/ledger.git -b ${ledger_tag} --quiet /src
 RUN cd /src && git submodule --quiet update --init --recursive
