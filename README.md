@@ -11,5 +11,5 @@ the Fetch.AI ledger (constellation). Currently the following flavours of docker 
 Enclosed in this project is a utility script for building the docker images. To build a image simply
 run the shell script with a given tag name (or branch name) and distribution:
 
-    ./build-img.sh v0.3.1 ubuntu
+    ./build-img.py v0.3.1 ubuntu
 
