@@ -1,14 +1,14 @@
 FROM ubuntu:18.04 as builder
 
 RUN mkdir -p /build /src && \
-    apt-get update && \ 
+    apt-get update && \
     apt-get install -y \
         build-essential \
         libssl-dev \
         cmake \
         python3-dev \
         clang \
-        git 
+        git
 
 WORKDIR /build
 
