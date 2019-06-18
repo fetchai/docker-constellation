@@ -3,6 +3,11 @@
 * [0.3.1, 0.3, latest](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
 * [0.3.1-alpine, 0.3-alpine](https://github.com/fetchai/docker-constellation/blob/master/alpine/Dockerfile)
 
+Release Candidates
+
+* [0.4.1-rc5](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
+* [0.4.1-rc5-alpine](https://github.com/fetchai/docker-constellation/blob/master/alpine/Dockerfile)
+
 ## Quick Reference
 
 * Support documentation available at the [Community Website](https://community.fetch.ai/)
