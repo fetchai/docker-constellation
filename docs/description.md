@@ -6,7 +6,6 @@
 Release Candidates
 
 * [0.4.1-rc5](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
-* [0.4.1-rc5-alpine](https://github.com/fetchai/docker-constellation/blob/master/alpine/Dockerfile)
 
 ## Quick Reference
 
