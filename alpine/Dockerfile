@@ -16,12 +16,12 @@ RUN apk add \
         libexecinfo-dev \
         linux-headers
 
-ENV CC=clang
-ENV CXX=clang++
+ENV CC=gcc
+ENV CXX=g++
 
 WORKDIR /build
 
-ARG ledger_tag=v0.3.1
+ARG ledger_tag=v0.5.1
 
 RUN git clone https://github.com/fetchai/ledger.git -b ${ledger_tag} --quiet /src
 RUN cd /src && git submodule --quiet update --init --recursive
@@ -45,3 +45,4 @@ EXPOSE 8000 8001 8010 8011
 
 ENTRYPOINT [ "/app/constellation" ]
 CMD ["-standalone", "-block-interval", "3000"]
+

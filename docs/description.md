@@ -1,11 +1,15 @@
 # Supported Tags & Dockerfiles
 
-* [0.3.1, 0.3, latest](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
-* [0.3.1-alpine, 0.3-alpine](https://github.com/fetchai/docker-constellation/blob/master/alpine/Dockerfile)
+Current Versions:
 
-Release Candidates
+* [0.5.1, 0.5, latest](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
+* [0.5.1-alpine, 0.5-alpine](https://github.com/fetchai/docker-constellation/blob/master/alpine/Dockerfile)
+
+Previous Releases:
 
 * [0.4.1-rc5](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
+* [0.3.1, 0.3](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
+* [0.3.1-alpine, 0.3-alpine](https://github.com/fetchai/docker-constellation/blob/master/alpine/Dockerfile)
 
 ## Quick Reference
 
@@ -27,7 +31,7 @@ To run a single instance for testing, users can use the default options in the c
 
     $ docker run fetchai/constellation
 
-To specify the command line arguments like controlling the test
+To specify the command line arguments like controlling the block interval:
 
     $ docker run fetchai/constellation -standalone -block-interval 5000
 
