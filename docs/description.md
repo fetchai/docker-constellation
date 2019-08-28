@@ -2,11 +2,13 @@
 
 Current Versions:
 
-* [0.5.1, 0.5, latest](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
-* [0.5.1-alpine, 0.5-alpine](https://github.com/fetchai/docker-constellation/blob/master/alpine/Dockerfile)
+* [0.6.1, 0.6, latest](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
+* [0.6.1-alpine, 0.6-alpine](https://github.com/fetchai/docker-constellation/blob/master/alpine/Dockerfile)
 
 Previous Releases:
 
+* [0.5.1, 0.5](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
+* [0.5.1-alpine, 0.5-alpine](https://github.com/fetchai/docker-constellation/blob/master/alpine/Dockerfile)
 * [0.4.1-rc5](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
 * [0.3.1, 0.3](https://github.com/fetchai/docker-constellation/blob/master/ubuntu/Dockerfile)
 * [0.3.1-alpine, 0.3-alpine](https://github.com/fetchai/docker-constellation/blob/master/alpine/Dockerfile)
