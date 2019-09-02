@@ -33,7 +33,6 @@ def parse_commandline():
     parser = argparse.ArgumentParser()
     parser.add_argument('tag', help='The tag name or branch name to build')
     parser.add_argument('distro', type=_distro, default=DEFAULT_DISTRO, nargs='?', help='The distribution base to build')
-    parser.add_argument('-p', '--publish', action='store_true', help='Publish the images to the Dockerhub')
     parser.add_argument('-a', '--all', action='store_true', help='Generate all the image names')
     return parser.parse_args()
 
