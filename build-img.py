@@ -34,6 +34,7 @@ def parse_commandline():
     parser.add_argument('tag', help='The tag name or branch name to build')
     parser.add_argument('distro', type=_distro, default=DEFAULT_DISTRO, nargs='?', help='The distribution base to build')
     parser.add_argument('-a', '--all', action='store_true', help='Generate all the image names')
+    parser.add_argument('-l', '--latest', action='store_true', help='Generate latest tag')
     return parser.parse_args()
 
 
@@ -73,8 +74,11 @@ def build_docker_tags(args):
     else:
         labels.append(args.tag)
 
+    if args.latest:
+        labels.append('latest')
+
     # add the label suffixes and image name
-    return list(map(lambda x: 'constellation:{}{}'.format(x,label_suffix), labels))
+    return list(map(lambda x: 'fetchai/constellation:{}{}'.format(x,label_suffix), labels))
 
 
 def main():
