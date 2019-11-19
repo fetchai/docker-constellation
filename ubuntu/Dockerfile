@@ -29,7 +29,8 @@ FROM ubuntu:18.04
 RUN mkdir -p /app/data && \
     apt-get update && \
     apt-get install -y \
-        libssl1.1
+        libssl1.1 \
+        ca-certificates
 
 WORKDIR /app/data
 
