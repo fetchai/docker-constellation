@@ -7,6 +7,8 @@ RUN mkdir -p /build /src && \
         libssl-dev \
         cmake \
         python3-dev \
+        libprotobuf-dev \
+        protobuf-compiler \
         clang \
         git
 
